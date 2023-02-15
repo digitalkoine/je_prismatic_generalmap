@@ -1,4 +1,4 @@
-# <a href="https://digitalkoine.github.io/je_prismatic/">General Map</a>
+# <a href="https://digitalkoine.github.io/je_prismatic_generalmap/">General Map</a>
 
 The General Map locates 678 acts of translation of Jane Eyre, into 68 languages. By an ‘act of translation’ we mean either the first publication of a translation, or its re-publication in a new place: that is to say, we foreground the translations’ distribution across geography. You can navigate and zoom in using your mouse or touch-screen, and click on each point to reveal publication details.  
 
