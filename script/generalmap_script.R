@@ -22,16 +22,16 @@ library(ggplot2)
 countries <- geojsonio::geojson_read("data/geojson/countries.geojson", what = "sp")
 
 ## upload the data in csv
-data <- read.csv("data/csv/pje_2023_02.csv")
+data <- read.csv("data/csv/pje_2023_04_28.csv")
 
 ## Create a new dataset jittering the coordinates
 data$lat <- jitter(data$lat, factor = 1, amount = 0.1)
 data$lng <- jitter(data$lng, factor = 1, amount = 0.1)
 
-write.csv(data, "data/csv/pje_2023_02_jittered.csv")
+write.csv(data, "data/csv/pje_2023_04_28_jittered.csv")
 
 ## Attribute the new values to data variable
-data <- read.csv("data/csv/pje_2023_02_jittered.csv")
+data <- read.csv("data/csv/pje_2023_04_28_jittered.csv")
 
 ## Create the palette based on the table field date
 pal <- colorNumeric(
